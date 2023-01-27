@@ -1,0 +1,9 @@
+Recent advances in deep learning have shown impressive results in the domain of textto-speech. To this end, a deep neural network is usually trained using a corpus of
+several hours of professionally recorded speech from a single speaker. Giving a new
+voice to such a model is highly expensive, as it requires recording a new dataset and
+retraining the model. A recent research introduced a three-stage pipeline that allows
+to clone a voice unseen during training from only a few seconds of reference speech, and
+without retraining the model. The authors share remarkably natural-sounding results,
+but provide no implementation. We reproduce this framework and open-source the
+first public implementation of it. We adapt the framework with a newer vocoder
+model, so as to make it run in real-time.
