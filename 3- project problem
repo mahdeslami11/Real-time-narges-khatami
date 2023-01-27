@@ -1,0 +1,15 @@
+
+they could not complete with successfully training a final version of
+the vocoder before submitting this thesis.
+they did manage to get a prototype working
+by February, but this model is no longer compatible with changes they’ve made to the
+framework. they are determined to provide a working implementation before the defense
+of this thesis, but they cannot report of new experiments for now. Our impressions of the
+prototype was that our implementation was successful in creating a TTS model that
+could clone most voices, but not some uncommon ones. Some artifacts and background
+noise were present due to the poor quality of our synthesizer, which is why hey had
+to revise the quality of our data and them preprocessing procedures. One drawback of
+the SV2TTS framework is the necessity to train models in sequential order. Once a
+new encoder is trained, the synthesizer must be retrained and so must the vocoder.
+Waiting for models to train so as to know on what to focus next has been a recurring
+situation in the development of them framework. 
