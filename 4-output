@@ -1,0 +1,22 @@
+A user begins by selecting an utterance audio file from any of the dataset stored
+on their disk. The toolbox handles several popular speech datasets, and can be customized to add new ones. Furthermore, the user can also record utterances so as to
+clone his or her own voice.
+Once an utterance is loaded, its embedding will be computed and the UMAP
+projections will be updated automatically. The mel spectrogram of the utterance is
+drawn (middle row on the right), but this is merely for reference, as it is not used to
+compute anything. We also draw the embedding vector with a heatmap plot (on the
+left of the spectrogram). Note that embeddings are unidimensional vectors and thus
+the square shape has no structural meaning about the embedding values. Drawing
+embeddings gives visual cues as to how two embeddings differ.
+When an embedding has been computed, it can be used to generate a spectrogram. The user can write any arbitrary text (top right of the interface) to be
+synthesized. As a reminder, punctuation is not supported by our model and will be
+discarded. To tune the prosody of the generate utterance, the user has to insert line
+31
+breaks between parts that should be synthesized individually. The complete spectrogram is then the concatenation of those parts. Synthesizing a spectrogram will display
+it on the bottom right of the interface. Synthesizing the same sentences multiple times
+will yield different outputs.
+Finally, the user can generate the segment corresponding to the synthesized
+spectrogram with the vocoder. A loading bar displays the progress of the generation.
+When done, the embedding of the synthesized utterance is generated (on the left of
+the synthesized spectrogram) and will also be projected with UMAP. The user is free
+to take that embedding as reference for further generation.
