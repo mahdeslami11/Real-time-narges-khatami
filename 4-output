@@ -1,3 +1,14 @@
+When dealing with short utterances, the vocoder usually runs below real-time. The
+inference speed is highly dependent of the number of folds in batched sampling. Indeed,
+the network runs nearly in constant time with respect to the number of folds, with
+only a small increase in time as the number of folds grows. We find it is simpler to
+talk about a threshold duration of speech above which the model runs in real time.
+On our setup, this threshold is of 12.5 seconds; meaning that for utterances that are
+shorter than this threshold, the model will run slower than real-time. It seems that
+performance varies unexpectedly with some environment factors (such as the operating
+system) on PyTorch, and therefore we express our results with respect to a single same
+configuration
+
 A user begins by selecting an utterance audio file from any of the dataset stored
 on their disk. The toolbox handles several popular speech datasets, and can be customized to add new ones. Furthermore, the user can also record utterances so as to
 clone his or her own voice.
@@ -20,3 +31,6 @@ spectrogram with the vocoder. A loading bar displays the progress of the generat
 When done, the embedding of the synthesized utterance is generated (on the left of
 the synthesized spectrogram) and will also be projected with UMAP. The user is free
 to take that embedding as reference for further generation.
+
+We developed a framework for real-time voice cloning that had no public implementation. We find the results to be satisfying despite some unnatural prosody, and the
+voice cloning ability of the framework to be reasonably good but not on par with methods that make use of more reference speech time
