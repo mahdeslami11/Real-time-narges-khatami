@@ -1,0 +1,5 @@
+We developed a framework for real-time voice cloning that had no public implementation. We find the results to be satisfying despite some unnatural prosody, and the
+voice cloning ability of the framework to be reasonably good but not on par with methods that make use of more reference speech time. We hope to improve our framework
+beyond the scope of this thesis, and possibly to implement some of the newer advances
+in the field that were made at the time of writing. We believe that even more powerful
+forms of voice cloning will become available in a near future.
