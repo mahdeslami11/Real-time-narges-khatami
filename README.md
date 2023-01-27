@@ -68,6 +68,10 @@ depending on whether you downloaded any datasets. If you are running an X-server
 
 
 
+https://github.com/Rayhane-mamah
+https://github.com/fatchord
+https://github.com/begeekmyfriend
+
 He would like to thank his advisor Pr. Gilles Louppe for his wise advices, his dedication
 and his patience.
  thank mr. Quan Wang for answering my questions about his research.
