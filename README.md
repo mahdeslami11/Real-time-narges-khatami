@@ -74,7 +74,7 @@ and his patience.
  thank github users Rayhane-mamah16, fatchord17 and begeekmyfriend18
 for their contributions to the open source repositories used in this project.
 he also wish to thank teaching assistants Joeri Hermans and Romain Mormont for
-managing the university’s deep learning cluster and for providing me with technical
+managing the university’s deep learning cluster and for providing him with technical
 assistance.
 Finally, he wish to thank his sister Marie and sister-in-law Virginie for proofreading
 this thesis.
