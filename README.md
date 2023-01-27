@@ -64,3 +64,24 @@ or
 `python demo_toolbox.py`  
 
 depending on whether you downloaded any datasets. If you are running an X-server or if you have the error `Aborted (core dumped)`, see [this issue](https://github.com/CorentinJ/Real-Time-Voice-Cloning/issues/11#issuecomment-504733590).
+
+
+
+
+He would like to thank his advisor Pr. Gilles Louppe for his wise advices, his dedication
+and his patience.
+ thank mr. Quan Wang for answering my questions about his research.
+ thank github users Rayhane-mamah16, fatchord17 and begeekmyfriend18
+for their contributions to the open source repositories used in this project.
+he also wish to thank teaching assistants Joeri Hermans and Romain Mormont for
+managing the university’s deep learning cluster and for providing me with technical
+assistance.
+Finally, he wish to thank his sister Marie and sister-in-law Virginie for proofreading
+this thesis.
+
+I am Narges khatami 
+
+40114140111006 student number
+
+Digital signal processing Eslami
+
